@@ -6,8 +6,8 @@ export class Index {
     config.title = 'Samples';
 
     config.map([
-      { name: 'v-grid', route: 'v-grid', moduleId: './v-grid/index', title: 'v-grid' },
-      { name: 'default', route: '', redirect: 'v-grid' }
+      { name: 'main', route: 'main', moduleId: './main/index', title: 'main' },
+      { name: 'default', route: '', redirect: 'main' }
     ]);
     this.router = router;
   }
